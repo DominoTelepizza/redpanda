@@ -1,0 +1,83 @@
+/* styles/LoginPage.css */
+.form-container {
+    width: 100%;
+    max-width: 40%; /* Ustalenie maksymalnej szerokości kontenera */
+    margin: 0 auto; /* Wyśrodkowanie kontenera */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-header {
+    width: 100%;
+    font-size: 24px; /* Zwiększenie rozmiaru czcionki nagłówka */
+    color: #333;
+    border-bottom: 2px solid #ccc; /* Szara kreska na długości diva */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: left; /* Wyrównanie tekstu do lewej */
+  }
+  
+  
+  .form-field {
+    width: 100%;
+    margin: 8px 0; /* Marginesy, aby odseparować pola od siebie */
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .form-field::placeholder {
+    color: #888;
+    font-style: italic; /* Ustawienie kursywy */
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between; /* Rozdziela przyciski równomiernie */
+    width: 100%; /* Ustaw szerokość kontenera przycisków */
+    margin-top: 8px; /*margines od pól formularza*/
+  }
+  
+  .form-button {
+    flex-grow: 1; /* Pozwala przyciskom zająć równą przestrzeń */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #416b1f;
+    color: white;
+    border-radius: 5px;
+  }
+
+  /*Osobny kod dla przycisku Zarejestruj na stronie /register*/
+  .form-register-button {
+    width:100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #416b1f;
+    color: white;
+    border-radius: 5px;
+    margin-top: 8px; /*margines od pól formularza*/
+  }
+  
+  /* Dostosowanie marginesu, aby pierwszy i ostatni przycisk miał tylko jedną stronę marginesu */
+  .form-button:first-child {
+    margin-right: 10px;
+  }
+  
+  .form-button:last-child {
+    margin-left: 10px;
+  }
+
+
+  .forgot-password-link {
+    color: #8ee1ff; /* Jasnoniebieski */
+    font-style: italic; /* Kursywa */
+    margin: 10px 0; /* Redukcja odstępu */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    display: block; /* Aby link zajmował własną linię */
+  }
