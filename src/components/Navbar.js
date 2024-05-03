@@ -10,6 +10,7 @@ function Navbar() {
         <Link to="/login">Logowanie</Link>
         <Link to="/register">Rejestracja</Link>
         <Link to="/forgot-password">Zapomniałem hasła</Link>
+        <Link to="/my-schedule">Mój harmonogram</Link>
       </div>
     </div>
   );

@@ -13,9 +13,6 @@ const MainPlanPage = () => {
       <div className="top-row">
         <div className="search-form">
 
-
-
-
           <div className="main-form-container">
       <form>
       <input className="form-field" type="text" placeholder="Wyszukaj osobę..." />
@@ -24,11 +21,6 @@ const MainPlanPage = () => {
             <button className="form-register-button" type="submit">Wyszukaj</button>
       </form>
       </div>
-
-
-
-
-
 
         </div>
 
