@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PageHeader from '../components/PageHeader';
 
 function MySchedule() {
   // Przykładowe dane dla harmonogramu
@@ -75,8 +76,11 @@ function MySchedule() {
 
 
   return (
+    <div>
+      <PageHeader title="Twój tygodniowy harmonogram" />
+      
+      <div  className="plan-main-container">
     <div className="your-weekly-schedule">
-      <h2>Twój tygodniowy harmonogram</h2>
       {schedule.map((day, dayIndex) => (
         <div key={dayIndex}>
           <table>
@@ -123,6 +127,8 @@ function MySchedule() {
           </table>
         </div>
       ))}
+    </div>
+    </div>
     </div>
   );
 }

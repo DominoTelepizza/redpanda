@@ -5,6 +5,7 @@ import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import MainPlanPage from './pages/MainPlanPage';
+import ImportSchedulePage from './pages/ImportSchedulePage';
 import MySchedule from './pages/MySchedule';
 import './styles/App.css'; // Aby zastosować globalne style
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/forgot-password" element={<ForgotPasswordPage />} />
         <Route path="/my-schedule" element={<MySchedule />} />
         <Route path="/plan" element={<MainPlanPage />} />
+        <Route path="/import-schedule" element={<ImportSchedulePage />} />
       </Routes>
     </BrowserRouter>
   );
